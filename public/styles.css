@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fraunces', serif;
+
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h3 {
+    font-size: 56px;
+    line-height: 64px;
+
+}
+
+h5 {
+    font-size: 32px;
+    line-height: 40px;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 32px;
+
+}

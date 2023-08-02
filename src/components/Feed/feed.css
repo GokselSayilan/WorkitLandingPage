@@ -1,0 +1,347 @@
+.feed {
+    margin-top: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feedBg {
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    top: -400px;
+    background-color: #FCF8FF;
+    z-index: -10;
+    border-radius: 350% / 0% 0% 50% 50%;
+
+}
+
+.feedWrapper {
+    width: 1140px;
+}
+
+.feedCards {
+    display: flex;
+    text-align: center;
+    gap: 26px;
+}
+
+.feedCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedCardCircle {
+    border: 1px solid #584D62;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feedCardNumber {
+    font-weight: 700;
+    color: #24053E;
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+
+}
+
+.feedCardTitle {
+    color: #24053E;
+    margin-bottom: 30px;
+}
+
+.feedCardDesc {
+    color: #584D62;
+}
+
+.feedCardProfileSection {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 450px;
+}
+
+
+.feedCardProfileSectionCard {
+    width: 730px;
+    height: 420px;
+    background-color: #24053E;
+    padding: 64px;
+    position: relative;
+}
+
+.feedCardProfileSectionCardTitle {
+    color: white;
+}
+
+.feedCardProfileSectionCardDesc {
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.feedCardProfileSectionCardPattern {
+    position: absolute;
+    right: 70px;
+    bottom: -50px;
+    width: 175px;
+}
+
+.feedCardProfileSectionPhoto {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: -175px;
+    left: -360px;
+    z-index: -5;
+}
+
+@media (max-width:1000px) {
+    .feed {
+        margin-top: 200px;
+
+    }
+
+    .feedBg {
+        width: 100%;
+        height: 1000px;
+        position: absolute;
+        top: -300px;
+        background-color: #FCF8FF;
+        z-index: -10;
+        border-radius: 350% / 0% 0% 50% 50%;
+
+    }
+
+    .feedWrapper {
+        width: 100%;
+        padding: 0;
+    }
+
+    .feedCards {
+        display: flex;
+        flex-direction: column;
+        text-align: unset;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .feedCard {
+        display: flex;
+        flex-direction: unset;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        width: 600px
+    }
+
+    .feedCardCircle {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 1px solid #24053E;
+        margin: 0;
+        /* Paragraf etiketinin varsayılan dış boşluğunu sıfırlayalım */
+        padding: 0;
+        /* Paragraf etiketinin varsayılan doldurmasını sıfırlayalım */
+
+    }
+
+    .feedCardContent {
+        width: 500px;
+    }
+
+    .feedCardNumber {
+        font-weight: 700;
+        color: #24053E;
+        font-size: 20px;
+        font-family: 'Fraunces', serif;
+
+    }
+
+    .feedCardTitle {
+        color: #24053E;
+        margin-bottom: 28px;
+    }
+
+    .feedCardDesc {
+        color: #584D62;
+        font-size: 16px;
+    }
+
+    .feedCardProfileSection {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 350px;
+        padding: 0 40px;
+    }
+
+    .feedCardProfileSectionCard {
+        width: 515px;
+        height: 380px;
+        background-color: #24053E;
+        padding: 50px;
+        position: relative;
+    }
+
+    .feedCardProfileSectionCardTitle {
+        color: white;
+        font-size: 48px;
+    }
+
+    .feedCardProfileSectionCardDesc {
+        color: white;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        line-height: 28px;
+
+    }
+
+    .feedCardProfileSectionCardPattern {
+        position: absolute;
+        right: 50px;
+        bottom: -70px;
+        width: 175px;
+    }
+
+    .feedCardProfileSectionPhoto {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: -140px;
+        left: -150px;
+        z-index: -5;
+    }
+}
+
+
+@media (max-width:500px) {
+    .feed {
+        margin-top: 150px;
+
+    }
+
+    .feedBg {
+        width: 100%;
+        height: 1100px;
+        position: absolute;
+        top: -200px;
+        background-color: #FCF8FF;
+        z-index: -10;
+        border-radius: 350% / 0% 0% 30% 30%;
+
+    }
+
+    .feedWrapper {
+        width: 100%;
+        padding: 0;
+    }
+
+    .feedCards {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .feedCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+        width: 350px
+    }
+
+    .feedCardCircle {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 1px solid #24053E;
+
+    }
+
+    .feedCardContent {
+        width: 350px;
+    }
+
+    .feedCardNumber {
+        font-weight: 700;
+        color: #24053E;
+        font-size: 20px;
+        font-family: 'Fraunces', serif;
+
+    }
+
+    .feedCardTitle {
+        color: #24053E;
+        margin-bottom: 16px;
+        margin-top: 24px;
+        font-size: 28px;
+    }
+
+    .feedCardDesc {
+        color: #584D62;
+        font-size: 16px;
+    }
+
+    .feedCardProfileSection {
+        display: flex;
+        justify-content: center;
+        margin-top: 350px;
+        padding: 0 16px;
+    }
+
+    .feedCardProfileSectionCard {
+        width: 350px;
+        height: 400px;
+        background-color: #24053E;
+        padding: 25px;
+        position: relative;
+        text-align: center;
+    }
+
+    .feedCardProfileSectionCardTitle {
+        color: white;
+        font-size: 32px;
+    }
+
+    .feedCardProfileSectionCardDesc {
+        color: white;
+        margin-top: 16px;
+        margin-bottom: 24px;
+        line-height: 28px;
+    }
+
+    .feedCardProfileSectionCardPattern {
+        display: none;
+    }
+
+    .feedCardProfileSectionPhoto {
+        width: 280px;
+        height: 280px;
+        position: absolute;
+        top: -230px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -5;
+    }
+}
